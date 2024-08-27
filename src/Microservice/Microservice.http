@@ -1,0 +1,9 @@
+@Microservice_HostAddress = http://localhost:8080
+
+GET {{Microservice_HostAddress}}/file/123
+Accept: application/json
+
+###
+
+HEAD http://localhost:8080/file/123
+Accept: application/json
